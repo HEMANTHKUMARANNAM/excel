@@ -1,4 +1,5 @@
 {
+  "homepage": " https://hemanthkumarannam.github.io/excel/",
   "name": "excel",
   "version": "0.1.0",
   "private": true,
@@ -13,12 +14,15 @@
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-player": "^2.16.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
